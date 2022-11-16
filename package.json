@@ -19,6 +19,7 @@
     "eslint": "^8.25.0",
     "husky": "^8.0.0",
     "jest": "^29.2.0",
+    "lerna": "^6.0.3",
     "prettier": "^2.7.1",
     "ts-jest": "^29.0.3",
     "tslib": "^2.4.1",
@@ -26,7 +27,6 @@
   },
   "scripts": {
     "lint": "eslint --ext .tsx,.ts --ignore-path .eslintignore --quiet .",
-    "ds": "yarn workspace storybook dev",
     "test": "jest",
     "prepare": "husky install",
     "build:packages": "yarn workspaces foreach -ptR --from '@onions/*' run build"
