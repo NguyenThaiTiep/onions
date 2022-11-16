@@ -1,7 +1,7 @@
 {
   "name": "@onions/api",
   "packageManager": "yarn@3.2.4",
-  "version": "0.0.2-alpha.0",
+  "version": "0.0.3-alpha.0",
   "description": "Teko styling package",
   "license": "MIT",
   "main": "dist/index.js",
@@ -26,5 +26,5 @@
     "@emotion/styled": "11.3.0",
     "react": "^18.2.0"
   },
-  "gitHead": "871c836fbf653bb1ccf5e7b38735b65ec9cbe46a"
+  "gitHead": "82da1d528165cb275415b9bc9bf308c0948e0e7e"
 }
