@@ -27,10 +27,13 @@
   "scripts": {
     "lint": "eslint --ext .tsx,.ts --ignore-path .eslintignore --quiet .",
     "test": "jest",
-    "prepare": "husky install",
+    "prepare": "yarn husky install",
     "build:packages": "yarn workspaces foreach -ptR --from '@onions/*' run build"
   },
   "dependencies": {
     "react": "^18.2.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
