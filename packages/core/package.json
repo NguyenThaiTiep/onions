@@ -1,0 +1,28 @@
+{
+  "name": "@onions/core",
+  "packageManager": "yarn@3.2.4",
+  "version": "0.0.0",
+  "description": "Teko styling package",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@types/react": "^18.0.24",
+    "rollup": "^2.60.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.31.1"
+  },
+  "dependencies": {
+    "@emotion/cache": "11.5.0",
+    "@emotion/react": "11.5.0",
+    "@emotion/styled": "11.3.0",
+    "react": "^18.2.0"
+  }
+}
