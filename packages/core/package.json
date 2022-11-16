@@ -1,6 +1,6 @@
 {
   "name": "@onions/core",
-  "version": "0.0.3",
+  "version": "0.0.4-alpha.0",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -26,5 +26,5 @@
   "homepage": "https://github.com/NguyenThaiTiep/onions/tree/master/packages/core",
   "author": "tiepnt",
   "description": "",
-  "gitHead": "c9f813fcb03ef3799045c116cf43323297b788a5"
+  "gitHead": "6ef0f44bca99365196372f2217e414ac8a9c58ef"
 }
