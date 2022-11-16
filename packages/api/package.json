@@ -25,5 +25,6 @@
     "@emotion/react": "11.5.0",
     "@emotion/styled": "11.3.0",
     "react": "^18.2.0"
-  }
+  },
+  "gitHead": "871c836fbf653bb1ccf5e7b38735b65ec9cbe46a"
 }
